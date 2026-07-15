@@ -1,4 +1,3 @@
-Paste this in exactly as shown (indentation matters in these files):
 name: Lint
 
 on: [push]
