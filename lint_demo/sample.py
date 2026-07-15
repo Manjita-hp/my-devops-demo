@@ -1,9 +1,14 @@
+"""Sample module."""
+
+
 def calculate_total(price, quantity):
-    discount = 10
-    total = price * quantity
-    return total
+    """Calculate the total price."""
+    return price * quantity
+
 
 def get_status(code):
+    """Return the status."""
+    result = "Unknown"
     if code == 200:
         result = "OK"
     return result
